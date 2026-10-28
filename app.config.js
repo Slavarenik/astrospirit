@@ -86,6 +86,9 @@ module.exports = {
       firebase: firebaseConfig,
       googleWebClientId,
       revenueCat: revenueCatConfig,
+      eas: {
+        projectId: "c0868eda-ffeb-4c8f-a0a8-9b59ce7acc36",
+      },
     },
   },
 };

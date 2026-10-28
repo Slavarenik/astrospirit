@@ -16,7 +16,10 @@
       "supportsTablet": false,
       "bundleIdentifier": "com.wwe.astrospirit",
       "googleServicesFile": "./GoogleService-Info.plist",
-      "usesAppleSignIn": true
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.wwe.astrospirit",
@@ -41,7 +44,16 @@
           "color": "#C7A55E"
         }
       ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "15.1"
+          }
+        }
+      ],
       "@react-native-firebase/app",
+      "./plugins/withFirebaseModularHeaders",
       "@react-native-google-signin/google-signin",
       [
         "expo-location",
