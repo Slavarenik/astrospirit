@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Astro Spirit",
+    "slug": "astrospirit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#15191A",
+    "splash": {
+      "backgroundColor": "#15191A",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.wwe.astrospirit",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "package": "com.wwe.astrospirit",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#15191A"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-apple-authentication",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#15191A",
+          "resizeMode": "contain"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#C7A55E"
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Used only to resolve your birth city into coordinates, for an accurate natal chart. We never track your current location."
+        }
+      ]
+    ],
+
+    "extra": {
+      "horoscopeApiBaseUrl": "https://freehoroscopeapi.com",
+      "googleTranslateApiKey": ""
+    }
+  }
+}

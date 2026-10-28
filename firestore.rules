@@ -1,0 +1,64 @@
+rules_version = '2';
+
+// Minimal starting rules matching what the client actually reads/writes
+// today (see FIRESTORE_SCHEMA.md). Deploy with:
+//   firebase deploy --only firestore:rules
+// Review before shipping — this intentionally has no field-shape
+// validation yet, just ownership checks.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedInAsOwner(uid) {
+      return request.auth != null && request.auth.uid == uid;
+    }
+
+    match /users/{uid} {
+      allow read, write: if isSignedInAsOwner(uid);
+
+      match /friends/{friendId} {
+        allow read, write: if isSignedInAsOwner(uid);
+      }
+    }
+
+    // `Users` (capital U — a DIFFERENT collection from `users` above) is
+    // keyed by a random per-install deviceId, not the auth uid, because a
+    // doc is created right after onboarding, before anyone has signed in.
+    // There is no way for rules to verify an unauthenticated caller really
+    // owns a given deviceId (same trust model as any client-generated
+    // analytics/install id) — the tradeoff accepted here is: anyone can
+    // create/update an *unclaimed* doc (no `uid` field yet) by guessing a
+    // deviceId, which in practice is a 122-bit random UUID, but once a doc
+    // is claimed (a `uid` is set on it at sign-in) only that account can
+    // touch it again, and nothing is ever readable by someone else's auth.
+    // Tighten with App Check before shipping if this isn't an acceptable
+    // risk for your use case.
+    match /Users/{deviceId} {
+      // Unclaimed docs are readable without auth (onboarding sync does a
+      // get-before-set). Once claimed, only the owning account can read.
+      allow get: if !("uid" in resource.data)
+                 || (request.auth != null && resource.data.uid == request.auth.uid);
+
+      allow create: if request.resource.data.deviceId == deviceId
+                    && !("uid" in request.resource.data);
+
+      allow update: if
+        // Still unclaimed and staying unclaimed — onboarding-only edits,
+        // no auth required, can't introduce a uid this way.
+        (!("uid" in resource.data) && !("uid" in request.resource.data))
+        ||
+        // Claiming an unclaimed doc at sign-up/sign-in time.
+        (request.auth != null && !("uid" in resource.data) && request.resource.data.uid == request.auth.uid)
+        ||
+        // Already claimed — only the owning account can update it further.
+        (request.auth != null && resource.data.uid == request.auth.uid);
+
+      allow delete: if false;
+    }
+
+    // Everything else is denied by default.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

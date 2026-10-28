@@ -1,0 +1,530 @@
+{
+  "major": [
+    {
+      "name": "The Fool",
+      "file": "the-fool.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Magician",
+      "file": "the-magician.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The High Priestess",
+      "file": "the-high-priestess.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Empress",
+      "file": "the-empress.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Emperor",
+      "file": "the-emperor.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Hierophant",
+      "file": "the-hierophant.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Lovers",
+      "file": "the-lovers.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Chariot",
+      "file": "the-chariot.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "Strength",
+      "file": "strength.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Hermit",
+      "file": "the-hermit.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "Wheel of Fortune",
+      "file": "wheel-of-fortune.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "Justice",
+      "file": "justice.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Hanged Man",
+      "file": "the-hanged-man.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "Death",
+      "file": "death.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Devil",
+      "file": "the-devil.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "Temperance",
+      "file": "temperance.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Tower",
+      "file": "the-tower.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Star",
+      "file": "the-star.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Moon",
+      "file": "the-moon.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The Sun",
+      "file": "the-sun.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "Judgement",
+      "file": "judgement.png",
+      "suit": null,
+      "arcana": "major"
+    },
+    {
+      "name": "The World",
+      "file": "the-world.png",
+      "suit": null,
+      "arcana": "major"
+    }
+  ],
+  "minor": [
+    {
+      "name": "Ace of Swords",
+      "file": "ace-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Ace"
+    },
+    {
+      "name": "Two of Swords",
+      "file": "two-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Two"
+    },
+    {
+      "name": "Three of Swords",
+      "file": "three-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Three"
+    },
+    {
+      "name": "Four of Swords",
+      "file": "four-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Four"
+    },
+    {
+      "name": "Five of Swords",
+      "file": "five-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Five"
+    },
+    {
+      "name": "Six of Swords",
+      "file": "six-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Six"
+    },
+    {
+      "name": "Seven of Swords",
+      "file": "seven-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Seven"
+    },
+    {
+      "name": "Eight of Swords",
+      "file": "eight-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Eight"
+    },
+    {
+      "name": "Nine of Swords",
+      "file": "nine-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Nine"
+    },
+    {
+      "name": "Ten of Swords",
+      "file": "ten-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Ten"
+    },
+    {
+      "name": "Page of Swords",
+      "file": "page-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Page"
+    },
+    {
+      "name": "Knight of Swords",
+      "file": "knight-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Knight"
+    },
+    {
+      "name": "Queen of Swords",
+      "file": "queen-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "Queen"
+    },
+    {
+      "name": "King of Swords",
+      "file": "king-of-swords.png",
+      "suit": "Swords",
+      "arcana": "minor",
+      "rank": "King"
+    },
+    {
+      "name": "Ace of Wands",
+      "file": "ace-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Ace"
+    },
+    {
+      "name": "Two of Wands",
+      "file": "two-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Two"
+    },
+    {
+      "name": "Three of Wands",
+      "file": "three-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Three"
+    },
+    {
+      "name": "Four of Wands",
+      "file": "four-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Four"
+    },
+    {
+      "name": "Five of Wands",
+      "file": "five-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Five"
+    },
+    {
+      "name": "Six of Wands",
+      "file": "six-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Six"
+    },
+    {
+      "name": "Seven of Wands",
+      "file": "seven-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Seven"
+    },
+    {
+      "name": "Eight of Wands",
+      "file": "eight-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Eight"
+    },
+    {
+      "name": "Nine of Wands",
+      "file": "nine-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Nine"
+    },
+    {
+      "name": "Ten of Wands",
+      "file": "ten-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Ten"
+    },
+    {
+      "name": "Page of Wands",
+      "file": "page-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Page"
+    },
+    {
+      "name": "Knight of Wands",
+      "file": "knight-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Knight"
+    },
+    {
+      "name": "Queen of Wands",
+      "file": "queen-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "Queen"
+    },
+    {
+      "name": "King of Wands",
+      "file": "king-of-wands.png",
+      "suit": "Wands",
+      "arcana": "minor",
+      "rank": "King"
+    },
+    {
+      "name": "Ace of Pentacles",
+      "file": "ace-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Ace"
+    },
+    {
+      "name": "Two of Pentacles",
+      "file": "two-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Two"
+    },
+    {
+      "name": "Three of Pentacles",
+      "file": "three-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Three"
+    },
+    {
+      "name": "Four of Pentacles",
+      "file": "four-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Four"
+    },
+    {
+      "name": "Five of Pentacles",
+      "file": "five-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Five"
+    },
+    {
+      "name": "Six of Pentacles",
+      "file": "six-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Six"
+    },
+    {
+      "name": "Seven of Pentacles",
+      "file": "seven-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Seven"
+    },
+    {
+      "name": "Eight of Pentacles",
+      "file": "eight-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Eight"
+    },
+    {
+      "name": "Nine of Pentacles",
+      "file": "nine-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Nine"
+    },
+    {
+      "name": "Ten of Pentacles",
+      "file": "ten-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Ten"
+    },
+    {
+      "name": "Page of Pentacles",
+      "file": "page-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Page"
+    },
+    {
+      "name": "Knight of Pentacles",
+      "file": "knight-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Knight"
+    },
+    {
+      "name": "Queen of Pentacles",
+      "file": "queen-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "Queen"
+    },
+    {
+      "name": "King of Pentacles",
+      "file": "king-of-pentacles.png",
+      "suit": "Pentacles",
+      "arcana": "minor",
+      "rank": "King"
+    },
+    {
+      "name": "Ace of Cups",
+      "file": "ace-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Ace"
+    },
+    {
+      "name": "Two of Cups",
+      "file": "two-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Two"
+    },
+    {
+      "name": "Three of Cups",
+      "file": "three-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Three"
+    },
+    {
+      "name": "Four of Cups",
+      "file": "four-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Four"
+    },
+    {
+      "name": "Five of Cups",
+      "file": "five-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Five"
+    },
+    {
+      "name": "Six of Cups",
+      "file": "six-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Six"
+    },
+    {
+      "name": "Seven of Cups",
+      "file": "seven-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Seven"
+    },
+    {
+      "name": "Eight of Cups",
+      "file": "eight-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Eight"
+    },
+    {
+      "name": "Nine of Cups",
+      "file": "nine-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Nine"
+    },
+    {
+      "name": "Ten of Cups",
+      "file": "ten-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Ten"
+    },
+    {
+      "name": "Page of Cups",
+      "file": "page-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Page"
+    },
+    {
+      "name": "Knight of Cups",
+      "file": "knight-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Knight"
+    },
+    {
+      "name": "Queen of Cups",
+      "file": "queen-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "Queen"
+    },
+    {
+      "name": "King of Cups",
+      "file": "king-of-cups.png",
+      "suit": "Cups",
+      "arcana": "minor",
+      "rank": "King"
+    }
+  ]
+}

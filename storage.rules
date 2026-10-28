@@ -1,0 +1,14 @@
+rules_version = '2';
+
+// The avatar feature (and its Firebase Storage usage) was removed — see
+// DEVLOG.md Phase 8. Nothing in the app reads or writes Storage anymore.
+// Deny-all kept here as a safe default in case Storage is enabled on this
+// Firebase project; delete this file once you've confirmed that.
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
